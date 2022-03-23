@@ -5,18 +5,18 @@
 ## Introduction
 Pandas profiling is an open source Python module with which we can quickly do an exploratory data analysis with just a few lines of code. It also generates interactive reports in web format that can be presented to any person, even if they do not know programming.
 
-- How to install pandas profiling and other required libraries:
+### How to install pandas profiling and other required libraries:
 
 > Using pip:
-pip install pandas
-pip install pandas-profiling
+***pip install pandas
+pip install pandas-profiling***
 
 > Using conda:
-conda install -c conda-forge pandas
-conda install -c conda-forge pandas-profiling
+***conda install -c conda-forge pandas***
+***conda install -c conda-forge pandas-profiling***
 
 > Using requirement.txt file:
-pip install -m requirements.txt
+***pip install -m requirements.txt***
 
 ## Getting Started
 - Use following code to generate a report:
