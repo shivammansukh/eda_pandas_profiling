@@ -10,17 +10,17 @@
 > How to use pandas profiling
 
 > Using pip:
-Install using pip package manager by running-
-```pip install pandas
+```Install using pip package manager by running-
+pip install pandas
 pip install pandas-profiling```
 
 > Using conda:
 Install using the conda package manager by running-
-```conda install -c conda-forge pandas
-conda install -c conda-forge pandas-profiling```
+conda install -c conda-forge pandas
+conda install -c conda-forge pandas-profiling
 
 > Using requirements.txt:
-```pip install requirements.txt```
+pip install requirements.txt
 
 
 ## Getting Started
@@ -28,7 +28,7 @@ conda install -c conda-forge pandas-profiling```
 
 > Use following code to generate report:
 
-```
+``` Python
 import pandas_profiling as pp
 df = pd.read_csv('./data/iris.csv') 
 profile = pp.ProfileReport(df)
