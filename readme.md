@@ -31,6 +31,3 @@ profile.to_file("./output/pandas_profiling_output.html")
 ```
 
 ##### Here we are, it is been that simple. We can see the report generated in the output.html file.
-
-## Reference
-https://github.com/pandas-profiling/
