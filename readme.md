@@ -27,7 +27,7 @@ Using requirement.txt file:
 import pandas_profiling as pp
 df = pd.read_csv('./data/iris.csv') 
 profile = pp.ProfileReport(df)
-profile.to_file("./output/pandas_profiling_output.html")
+profile.to_file("./output/output.html")
 ```
 
 ##### Here we are, it is been that simple. We can see the report generated in the output.html file.
